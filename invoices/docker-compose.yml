@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  extractor:
+    build: .
+    volumes:
+      - ./facturas:/app/facturas
+      - ./cufe_data.db:/app/cufe_data.db
+    container_name: cufe_extractor
+    tty: true
