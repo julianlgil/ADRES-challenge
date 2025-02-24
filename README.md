@@ -2,7 +2,7 @@
 
 ---
 
-## 📝 **Contenido**
+## **Contenido**
 1. [Validación de archivo texto con Django](#1-requisitos-técnicos)
 2. [Validación de archivo texto con Django](#2-validación-de-csv-con-django)
 3. [Extracción de CUFE de PDFs con Python](#3-extracción-de-cufe-de-pdfs-con-python)
@@ -60,7 +60,7 @@ docker-compose up --build
 - **Extracción precisa:** Utiliza la expresión regular `\\b[a-fA-F0-9]{96}\\b` para identificar el CUFE.
 - **Base de datos SQLite:** Guarda la información extraída de forma estructurada.
 
-### 🧪 **Ejemplo de resultados:**
+### **Ejemplo de resultados:**
 ```
 ✅ factura1.pdf | Páginas: 2 | CUFE: f2e7a47d94... | Peso: 120.5 KB
 ✅ factura2.pdf | Páginas: 1 | CUFE: No encontrado | Peso: 98.3 KB
